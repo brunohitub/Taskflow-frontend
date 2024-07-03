@@ -1,0 +1,41 @@
+/* src/components/ProjectPage.css */
+.project-page {
+    padding: 20px;
+  }
+  
+  .project-page h2 {
+    margin-bottom: 10px;
+    font-size: 24px;
+  }
+  .task-section {
+    margin-bottom: 20px;
+    background-color: #f0f0f0;
+  padding: 10px;
+  border-radius: 5px;
+  }
+  
+  .task-section h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  /* src/components/MessagingPage.css */
+  .messaging-page {
+    padding: 20px;
+  }
+  
+  .message-container {
+    height: 400px; /* Ajustez la hauteur selon votre design */
+    overflow-y: scroll; /* Permet de faire défiler les messages */
+  }
+  .task-item {
+    padding: 8px;
+    margin-bottom: 8px;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .task-item:hover {
+    background-color: #e0e0e0;
+  }

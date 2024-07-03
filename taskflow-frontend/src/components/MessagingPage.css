@@ -1,0 +1,28 @@
+/* src/components/MessagingPage.css */
+.messaging-page {
+    padding: 20px;
+  }
+  
+  .messaging-page h2 {
+    margin-bottom: 10px;
+    font-size: 24px;
+  }
+  .message-container {
+    height: 400px;
+    overflow-y: scroll;
+    background-color: #f5f5f5;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .message {
+    padding: 8px;
+    margin-bottom: 8px;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .message:hover {
+    background-color: #e0e0e0;
+  }

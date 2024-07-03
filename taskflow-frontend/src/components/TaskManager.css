@@ -5,4 +5,11 @@
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
   }
+  .task-manager h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
   
+  .task-manager p {
+    font-size: 16px;
+  }
