@@ -80,7 +80,7 @@ const CalendarComponent = () => {
   return (
     <div className="flex h-screen bg-gray-100">
       {/* Menu de gauche en forme de grille */}
-      <div className="w-24 bg-white p-2 shadow-md">
+      {/* <div className="w-24 bg-white p-2 shadow-md">
         <h1 className="text-lg font-bold mb-4 text-center">DevManager</h1>
         <div className="grid grid-cols-2 gap-2">
           <MenuItem icon={Home} label="Accueil" tabName="home" />
@@ -89,7 +89,7 @@ const CalendarComponent = () => {
           <MenuItem icon={CalendarIcon} label="Calendrier" tabName="calendar" />
           <MenuItem icon={Settings} label="Paramètres" tabName="settings" />
         </div>
-      </div>
+      </div> */}
 
       {/* Contenu principal */}
       <div className="flex-1 p-8 overflow-auto">
