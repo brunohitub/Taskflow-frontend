@@ -28,8 +28,9 @@ const App = () => {
     <div className="app-container">
       <div className="sidebar">
         <h2>Taskflow</h2>
-        <ul>
+        <ul><span>
           <li onClick={() => setCurrentPage('calendar')}><i className="fas fa-tachometer-alt"></i> Dashboard</li>
+          </span>
           <li onClick={() => setCurrentPage('calendar')}><i className="fas fa-calendar-alt"></i> Calendar</li>
           <li onClick={() => setCurrentPage('messaging')}><i className="fas fa-comments"></i> Chat</li>
           <li onClick={() => setCurrentPage('project')}><i className="fas fa-tasks"></i> Projects</li>
@@ -37,7 +38,7 @@ const App = () => {
       </div>
       <div className="main-content">
         <div className="top-bar">
-          <img src="/path/to/logo.png" alt="Taskflow Logo" />
+          <img src="./taskflow.png" alt="Taskflow Logo" />
           <input type="text" placeholder="Search..." />
         </div>
         {renderPage()}
